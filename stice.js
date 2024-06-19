@@ -1,4 +1,4 @@
-unction IntegerEncrypt(str) {
+function IntegerEncrypt(str) {
   let encrypted = "";
   for (let i = 0; i < str.length; i++) {
     let charCode = str.charCodeAt(i).toString();
