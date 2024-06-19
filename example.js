@@ -1,8 +1,9 @@
-const originalText = "Hello World!";
-console.log("Original: " + originalText); // Hello World!
+// 1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+const originalText = "Hello world!";
+console.log("Original: " + originalText);
 
-const encryptedText = IntegerEncrypt(originalText); // 072101108108111032087111114108100033
+const encryptedText = encryptToInteger(originalText);
 console.log("Encrypted:", encryptedText);
 
-const decryptedText = IntegerEncrypt(encryptedText); // Hello World!
+const decryptedText = decryptFromInteger(encryptedText);
 console.log("Decrypted:", decryptedText);
